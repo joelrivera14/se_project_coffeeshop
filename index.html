@@ -165,16 +165,34 @@
                         Check out some recipes we've collected for your home-brewing convenience:
                     </p>
                     <div class="recipes__videos">
-                        <iframe src="https://www.youtube.com/watch?v=j6VlT_jUVPc">
+                        <iframe src="https://www.youtube.com/watch?v=j6VlT_jUVPc" class="recipes__iframe">
                             
                         </iframe>
                         
-                        <iframe src="https://www.youtube.com/watch?v=st571DYYTR8"></iframe>
+                        <iframe src="https://www.youtube.com/watch?v=st571DYYTR8" class="recipes__iframe"></iframe>
                         <h3 class="recipes__video-caption">Aeropress recipe ~5min</h3>
                         <h3 class="recipes__video-caption">Aeropress recipe ~5min</h3>
                     </div>
                 </section>
-                <section class="reservation"></section>
+                <section class="reservation" id="reservation">
+                    <h2 class="reservation__title">Book a Table</h2>
+                    <form class="reservation__form">
+                        <fieldset class="reservation__field">
+                            <label for="name">
+                                Name *
+                            <input type="text" id="name">
+                            </label>
+                            <label for="numbers">
+                                Number of guests *
+                            <input type="number" id="numbers">
+                            </label>
+                            <input type="datetime-local">
+                            <input type="email">
+                            <button>Book a table</button>
+                            <input type="checkbox">
+                        </fieldset>
+                    </form>
+                </section>
                 <section class="about"></section>
             </main>
             <footer class="footer"></footer>
