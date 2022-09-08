@@ -494,15 +494,15 @@ line-height: 20px;
 }
 
 .footer__copyright {
-font-family: 'Inter', Arial, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-color: #ffffff;
-padding-top: 108px;
-padding-bottom: 60px;
-padding-left: 80px;
-margin: 0;
-}
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding-top: 108px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    margin: 0;
+    }
 
