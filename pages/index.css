@@ -140,10 +140,7 @@ margin: 0px;
 
 .menu__title {
     text-align: center;
-    max-width: 780px;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 24px;
+    margin: 0 0 24px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -171,6 +168,7 @@ margin: 0px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px 40px;
+    padding-left: 0;
 }
 
 .card {
@@ -255,11 +253,17 @@ margin: 0;
 .recipes__video-caption {
     margin-top: 24px;
     margin-bottom: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
 }
 
 .recipes__video-captions {
-    display: flex;
-    justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 
 .reservation {
@@ -316,6 +320,7 @@ font-weight: normal;
 font-size: 20px;
 line-height: 30px;
 color: #838383;
+margin-top: 8px;
 }
 
 .form__button{
@@ -338,6 +343,7 @@ line-height: 20px;
     border-radius: 2px;
     width: 20px;
     height: 20px;
+    margin-right: 12px;
 }
 
 .form__label_type_checkbox {
