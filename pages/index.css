@@ -385,6 +385,14 @@ z-index: 1;
 
 .about__circle_animation_blurred {
     animation: pulsate 1.3s ease-in-out 0s infinite;
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    left: -129px;
+    top: -152px;
 }
 
 .footer {
@@ -464,3 +472,4 @@ padding-top: 108px;
 padding-bottom: 60px;
 padding-left: 80px;
 }
+
