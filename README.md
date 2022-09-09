@@ -13,4 +13,4 @@ This is the second project of the Software Engineer program at Practicum by Yand
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Adding shadows to the videos in the recipe page to maybe make them stand out more.
