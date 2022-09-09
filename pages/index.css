@@ -264,6 +264,7 @@ margin: 0;
 .recipes__video-captions {
 display: flex;
 justify-content: space-between;
+margin: 0;
 }
 
 .reservation {
