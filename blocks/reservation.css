@@ -16,8 +16,3 @@
   display: flex;
   justify-content: center;
 }
-
-.reservation__form {
-  max-width: 385px;
-  margin: auto;
-}
